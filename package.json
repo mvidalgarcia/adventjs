@@ -1,0 +1,14 @@
+{
+  "name": "adventjs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
