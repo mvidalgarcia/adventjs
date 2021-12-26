@@ -25,6 +25,6 @@ test.each([
   ["MMM", "MID", false],
   ["AA", "MID", false],
   ["ABCDDEFG", "ZYXWVUUT", false],
-])("Challenge #23 canReconfigure((%s, %s)", (from, to, result) => {
+])("Challenge #23 canReconfigure(%s, %s) === %s", (from, to, result) => {
   expect(canReconfigure(from, to)).toBe(result);
 });
